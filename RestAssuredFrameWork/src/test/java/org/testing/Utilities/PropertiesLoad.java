@@ -10,7 +10,7 @@ public class PropertiesLoad {
 	
 	public Properties propertyFileLoad() throws IOException
 	{
-		File f= new File ("../RestAssuredFW/Env.properties");
+		File f= new File ("..//RestAssuredFrameWork/src/test/java/Env.properties");
 		FileInputStream fi= new FileInputStream (f);
 		Properties pr= new Properties();
 		pr.load(fi);
